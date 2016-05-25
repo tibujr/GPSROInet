@@ -8,23 +8,23 @@
         Moises Tiburcio Obregon
     </author>
 
-    <plugin name="cordova-plugin-battery-status" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-camera" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-console" source="npm"/>
-    <plugin name="cordova-plugin-contacts" source="npm"/>
-    <plugin name="cordova-plugin-device" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-device-motion" source="npm"/>
-    <plugin name="cordova-plugin-device-orientation" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-dialogs" source="npm"/>
-    <plugin name="cordova-plugin-file" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-file-transfer" source="npm"/>
-    <plugin name="cordova-plugin-geolocation" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-globalization" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-media" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-network-information" source="npm"/><!--este-->
-    <plugin name="cordova-plugin-splashscreen" source="npm"/>
-    <plugin name="cordova-plugin-statusbar" source="npm"/>
-    <plugin name="cordova-plugin-vibration" source="npm"/>
+    <gap:plugin name="cordova-plugin-battery-status" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-camera" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-console" source="npm"/>
+    <gap:plugin name="cordova-plugin-contacts" source="npm"/>
+    <gap:plugin name="cordova-plugin-device" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-device-motion" source="npm"/>
+    <gap:plugin name="cordova-plugin-device-orientation" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-dialogs" source="npm"/>
+    <gap:plugin name="cordova-plugin-file" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-file-transfer" source="npm"/>
+    <gap:plugin name="cordova-plugin-geolocation" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-globalization" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-media" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-network-information" source="npm"/><!--este-->
+    <gap:plugin name="cordova-plugin-splashscreen" source="npm"/>
+    <gap:plugin name="cordova-plugin-statusbar" source="npm"/>
+    <gap:plugin name="cordova-plugin-vibration" source="npm"/>
     <gap:plugin name="pushbots-cordova-plugin" source="npm"/>
 
     <preference name="phonegap-version" value="3.3.0" />
