@@ -49,9 +49,6 @@
         "cordova-plugin-globalization": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
