@@ -19,15 +19,6 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-contacts": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-file": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
@@ -44,15 +35,6 @@
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-vibration": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-whitelist": {
