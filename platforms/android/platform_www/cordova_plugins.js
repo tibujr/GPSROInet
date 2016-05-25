@@ -262,20 +262,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-        "id": "cordova-plugin-globalization.GlobalizationError",
-        "clobbers": [
-            "window.GlobalizationError"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-        "id": "cordova-plugin-globalization.globalization",
-        "clobbers": [
-            "navigator.globalization"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-media/www/MediaError.js",
         "id": "cordova-plugin-media.MediaError",
         "clobbers": [
@@ -319,10 +305,8 @@ module.exports.metadata =
     "cordova-plugin-battery-status": "1.1.2",
     "cordova-plugin-file": "4.1.1",
     "cordova-plugin-file-transfer": "1.5.1",
-    "cordova-plugin-globalization": "1.0.3",
     "cordova-plugin-media": "2.2.0",
-    "cordova-plugin-network-information": "1.2.1",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-network-information": "1.2.1"
 };
 // BOTTOM OF METADATA
 });

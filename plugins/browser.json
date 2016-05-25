@@ -31,16 +31,10 @@
         "cordova-plugin-geolocation": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         }
     },

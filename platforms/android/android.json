@@ -43,19 +43,11 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Globalization\"><param name=\"android-package\" value=\"org.apache.cordova.globalization.Globalization\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Media\"><param name=\"android-package\" value=\"org.apache.cordova.media.AudioHandler\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -185,16 +177,10 @@
         "cordova-plugin-file-transfer": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-globalization": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-media": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-whitelist": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         }
     },
@@ -462,20 +448,6 @@
             ]
         },
         {
-            "file": "plugins/cordova-plugin-globalization/www/GlobalizationError.js",
-            "id": "cordova-plugin-globalization.GlobalizationError",
-            "clobbers": [
-                "window.GlobalizationError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-globalization/www/globalization.js",
-            "id": "cordova-plugin-globalization.globalization",
-            "clobbers": [
-                "navigator.globalization"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-media/www/MediaError.js",
             "id": "cordova-plugin-media.MediaError",
             "clobbers": [
@@ -517,9 +489,7 @@
         "cordova-plugin-battery-status": "1.1.2",
         "cordova-plugin-file": "4.1.1",
         "cordova-plugin-file-transfer": "1.5.1",
-        "cordova-plugin-globalization": "1.0.3",
         "cordova-plugin-media": "2.2.0",
-        "cordova-plugin-network-information": "1.2.1",
-        "cordova-plugin-whitelist": "1.2.2"
+        "cordova-plugin-network-information": "1.2.1"
     }
 }
