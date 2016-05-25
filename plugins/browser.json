@@ -12,21 +12,6 @@
         },
         "cordova-plugin-device": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-battery-status": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-device-orientation": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-network-information": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
         }
     },
     "dependent_plugins": {}

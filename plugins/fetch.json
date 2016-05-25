@@ -1,11 +1,10 @@
 {
     "cordova-plugin-camera": {
         "source": {
-            "type": "registry",
-            "id": "cordova-plugin-camera@~2.1.1"
-        },
-        "is_top_level": true,
-        "variables": {}
+            "type": "git",
+            "url": "https://git-wip-us.apache.org/repos/asf/cordova-plugin-camera.git",
+            "subdir": "."
+        }
     },
     "cordova-plugin-compat": {
         "source": {
@@ -55,39 +54,7 @@
     "cordova-plugin-device": {
         "source": {
             "type": "registry",
-            "id": "cordova-plugin-device@~1.1.1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-battery-status": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-battery-status@~1.1.1"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-device-orientation": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-device-orientation@~1.0.2"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-geolocation": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-geolocation@~2.1.0"
-        },
-        "is_top_level": true,
-        "variables": {}
-    },
-    "cordova-plugin-network-information": {
-        "source": {
-            "type": "registry",
-            "id": "cordova-plugin-network-information@~1.2.0"
+            "id": "cordova-plugin-device"
         },
         "is_top_level": true,
         "variables": {}

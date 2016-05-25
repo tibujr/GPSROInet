@@ -10,17 +10,14 @@
     <feature name="Geolocation">
         <param name="android-package" value="org.apache.cordova.geolocation.Geolocation" />
     </feature>
+    <feature name="Accelerometer">
+        <param name="android-package" value="org.apache.cordova.devicemotion.AccelListener" />
+    </feature>
     <feature name="Compass">
         <param name="android-package" value="org.apache.cordova.deviceorientation.CompassListener" />
     </feature>
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
-    </feature>
-    <feature name="Battery">
-        <param name="android-package" value="org.apache.cordova.batterystatus.BatteryListener" />
-    </feature>
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
     </feature>
     <name>SUMATE</name>
     <description>
@@ -29,16 +26,6 @@
     <author email="maycol.mmto@gmail.com" href="https://roinet.pe/">
         Moises Tiburcio Obregon
     </author>
-    <gap:plugin name="cordova-plugin-battery-status" source="npm" />
-    <gap:plugin name="cordova-plugin-camera" source="npm" />
-    <gap:plugin name="cordova-plugin-device" source="npm" />
-    <gap:plugin name="cordova-plugin-device-orientation" source="npm" />
-    <gap:plugin name="cordova-plugin-file" source="npm" />
-    <gap:plugin name="cordova-plugin-file-transfer" source="npm" />
-    <gap:plugin name="cordova-plugin-geolocation" source="npm" />
-    <gap:plugin name="cordova-plugin-media" source="npm" />
-    <gap:plugin name="cordova-plugin-network-information" source="npm" />
-    <gap:plugin name="pushbots-cordova-plugin" source="npm" />
     <preference name="phonegap-version" value="3.3.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -84,6 +71,10 @@
     <gap:splash gap:platform="ios" height="1024" src="res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
+    <gap:plugin name="org.apache.cordova.geolocation" />
+    <gap:plugin name="cordova-plugin-camera" source="npm" />
+    <gap:plugin name="pushbots-cordova-plugin" source="npm" />
+    <gap:plugin name="cordova-plugin-device" source="npm" />
     <access uri="*" />
     <access origin="*" />
 </widget>

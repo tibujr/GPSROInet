@@ -23,19 +23,15 @@
                             "count": 1
                         },
                         {
+                            "xml": "<feature name=\"Accelerometer\"><param name=\"android-package\" value=\"org.apache.cordova.devicemotion.AccelListener\" /></feature>",
+                            "count": 1
+                        },
+                        {
                             "xml": "<feature name=\"Compass\"><param name=\"android-package\" value=\"org.apache.cordova.deviceorientation.CompassListener\" /></feature>",
                             "count": 1
                         },
                         {
                             "xml": "<feature name=\"Device\"><param name=\"android-package\" value=\"org.apache.cordova.device.Device\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"Battery\"><param name=\"android-package\" value=\"org.apache.cordova.batterystatus.BatteryListener\" /></feature>",
-                            "count": 1
-                        },
-                        {
-                            "xml": "<feature name=\"NetworkStatus\"><param name=\"android-package\" value=\"org.apache.cordova.networkinformation.NetworkManager\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -109,10 +105,6 @@
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />",
                             "count": 1
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />",
-                            "count": 1
                         }
                     ]
                 }
@@ -142,12 +134,6 @@
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-battery-status": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-network-information": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         }
     },
@@ -241,28 +227,6 @@
             "clobbers": [
                 "device"
             ]
-        },
-        {
-            "file": "plugins/cordova-plugin-battery-status/www/battery.js",
-            "id": "cordova-plugin-battery-status.battery",
-            "clobbers": [
-                "navigator.battery"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-network-information/www/network.js",
-            "id": "cordova-plugin-network-information.network",
-            "clobbers": [
-                "navigator.connection",
-                "navigator.network.connection"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-network-information/www/Connection.js",
-            "id": "cordova-plugin-network-information.Connection",
-            "clobbers": [
-                "Connection"
-            ]
         }
     ],
     "plugin_metadata": {
@@ -273,8 +237,6 @@
         "cordova-plugin-geolocation": "2.2.1-dev",
         "org.apache.cordova.device-motion": "0.2.11-dev",
         "org.apache.cordova.device-orientation": "0.3.10-dev",
-        "cordova-plugin-device": "1.1.2",
-        "cordova-plugin-battery-status": "1.1.2",
-        "cordova-plugin-network-information": "1.2.1"
+        "cordova-plugin-device": "1.1.2"
     }
 }
