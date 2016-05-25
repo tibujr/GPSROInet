@@ -43,10 +43,6 @@
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"Capture\"><param name=\"android-package\" value=\"org.apache.cordova.mediacapture.Capture\" /></feature>",
-                            "count": 1
-                        },
-                        {
                             "xml": "<feature name=\"Contacts\"><param name=\"android-package\" value=\"org.apache.cordova.contacts.ContactManager\" /></feature>",
                             "count": 1
                         },
@@ -152,7 +148,7 @@
                     "/*": [
                         {
                             "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
-                            "count": 5
+                            "count": 4
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />",
@@ -164,10 +160,6 @@
                         },
                         {
                             "xml": "<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />",
-                            "count": 2
-                        },
-                        {
-                            "xml": "<uses-permission android:name=\"android.permission.RECORD_VIDEO\" />",
                             "count": 1
                         },
                         {
@@ -228,9 +220,6 @@
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-media-capture": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-console": {
@@ -517,55 +506,6 @@
             "runs": true
         },
         {
-            "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
-            "id": "cordova-plugin-media-capture.CaptureAudioOptions",
-            "clobbers": [
-                "CaptureAudioOptions"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/CaptureImageOptions.js",
-            "id": "cordova-plugin-media-capture.CaptureImageOptions",
-            "clobbers": [
-                "CaptureImageOptions"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/CaptureVideoOptions.js",
-            "id": "cordova-plugin-media-capture.CaptureVideoOptions",
-            "clobbers": [
-                "CaptureVideoOptions"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/CaptureError.js",
-            "id": "cordova-plugin-media-capture.CaptureError",
-            "clobbers": [
-                "CaptureError"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/MediaFileData.js",
-            "id": "cordova-plugin-media-capture.MediaFileData",
-            "clobbers": [
-                "MediaFileData"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/MediaFile.js",
-            "id": "cordova-plugin-media-capture.MediaFile",
-            "clobbers": [
-                "MediaFile"
-            ]
-        },
-        {
-            "file": "plugins/cordova-plugin-media-capture/www/capture.js",
-            "id": "cordova-plugin-media-capture.capture",
-            "clobbers": [
-                "navigator.device.capture"
-            ]
-        },
-        {
             "file": "plugins/cordova-plugin-contacts/www/contacts.js",
             "id": "cordova-plugin-contacts.contacts",
             "clobbers": [
@@ -733,7 +673,6 @@
         "cordova-plugin-device": "1.1.2",
         "cordova-plugin-battery-status": "1.1.2",
         "cordova-plugin-file": "4.1.1",
-        "cordova-plugin-media-capture": "1.2.0",
         "cordova-plugin-console": "1.0.3",
         "cordova-plugin-contacts": "2.0.1",
         "cordova-plugin-dialogs": "1.2.1",

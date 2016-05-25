@@ -19,9 +19,6 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-console": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
