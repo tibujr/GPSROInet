@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "pushbots-cordova-plugin": {
+            "PACKAGE_NAME": "com.maycol.GPSROInet"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.maycol.GPSROInet"
+        }
+    },
+    "dependent_plugins": {}
+}
