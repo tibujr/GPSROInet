@@ -19,16 +19,7 @@
         "cordova-plugin-camera": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-file-transfer": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
         "cordova-plugin-geolocation": {
-            "PACKAGE_NAME": "com.maycol.GPSROInet"
-        },
-        "cordova-plugin-media": {
             "PACKAGE_NAME": "com.maycol.GPSROInet"
         },
         "cordova-plugin-network-information": {
