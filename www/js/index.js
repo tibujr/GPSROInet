@@ -91,30 +91,9 @@ var app = {
 
     onErrorA: function(error) {
         //console.log("error, volver a llamar")
-    }/*,
+    }
 
-    takePicture: function() {
-        try{
-            navigator.camera.getPicture( function( imageURI ) {
-                alert( imageURI );
-              },
-              function( message ) {
-                alert( message );
-              },
-              {
-                quality: 50,
-                destinationType: Camera.DestinationType.FILE_URI
-              });
-        }catch(er){
-            alert(er.message)
-        }
-    }*/
 };
-
-/*function contador()
-{   
-    $("#fecha").val(fechaHora());
-}*/
 
 var arUbi = new Array();//arUbi.push({x:pos_x, y:pos_y, fecha:1, click:true});
 

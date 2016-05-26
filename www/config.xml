@@ -10,7 +10,7 @@
 
     <preference name="phonegap-version" value="3.3.0" />
     
-    <feature name="http://api.phonegap.com/1.0/device" />
+    <feature name="http://api.phonegap.com/1.0/device"/>
     <feature name="http://api.phonegap.com/1.0/battery"/>
     <feature name="http://api.phonegap.com/1.0/geolocation"/>
     <feature name="http://api.phonegap.com/1.0/network"/>
@@ -69,7 +69,6 @@
     <gap:plugin name="org.apache.cordova.geolocation" />
     <gap:plugin name="cordova-plugin-camera" source="npm"/>
     <gap:plugin name="pushbots-cordova-plugin" source="npm" />
-    <gap:plugin name="cordova-plugin-device" source="npm" />
     
     <access uri="*" /><!--add-->
     <access origin="*" />

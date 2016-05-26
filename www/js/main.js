@@ -9,20 +9,9 @@ $(document).ready(function () {
 
 	function metodoInicializacion()
 	{
-		//cordova.plugins.diagnostic.isLocationEnabled(okLocation, failLocation);
 		llenarCamposLogin();
 		document.addEventListener("backbutton", onBackKeyDown, false);//DESACTIVAR BOTON ATRAS
 	}
-
-	/*function okLocation(en)
-	{
-		alert(en)
-	}
-
-	function failLocation(er)
-	{
-		alert(er)
-	}*/
 
     function onBackKeyDown() {} //que pasa cuando preciona boton atras
 
@@ -73,7 +62,7 @@ $(document).ready(function () {
 					$("#usu-nom-cab").html(nomUsu);
 
 					//setInterval('contador()',1000);
-					setInterval('nuevaPosicion()',300000);
+					setInterval('nuevaPosicion()',120000);
 					$.mobile.changePage("#principal", {transition:"slide"});
 					getTipoMarca();//crear radios button
 				}else{
